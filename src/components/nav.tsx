@@ -1,6 +1,6 @@
 export default function Nav() {
   return (
-    <div className=" mt-4 h-28 w-[70%]  flex items-center  px-28 justify-between bg-transparent ">
+    <div className=" hidden md:flex col-start-1 row-start-1 mt-4 h-28 w-[70%] items-center  px-28 justify-between bg-transparent ">
       <a href="" className=" text-gray-900 font-bold text-lg">
         SHKAR
       </a>

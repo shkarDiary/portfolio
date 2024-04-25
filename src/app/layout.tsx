@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={ubntu.className}>
+      <body className={`${ubntu.className}`}>
         <Lines />
         <Nav />
         {children}
