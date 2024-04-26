@@ -84,7 +84,7 @@ export default function Home() {
           <div className=" md:w-[30rem] w-[18rem]  bg-gray-50 rounded-sm shadow-xl md:p-3 pb-5 px-3 text-center md:text-left ">
             <div className=" flex justify-center items-center font-bold  w-10 h-10 rounded-full md:shadow-[0_0px_75px_5px_rgb(0,0,0,0.3)] shadow-[0_0px_75px_1px_rgb(0,0,0,0.3)] bg-white relative top-[-22px] left-[-22px]  ">
               <span className=" text-3xl overflow-hidden leading-none relative top-[0.4rem]  ">
-                "
+                &quot;
               </span>
             </div>
             <p className="text-xl text-gray-600  ">
@@ -127,9 +127,8 @@ export default function Home() {
             />
           ))}
         </div>
-        <video>
-          <source src="/public/video/game.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
+        <video src="/././public/video/mosh.mp4">
+          <source src="/././public/video/mosh.mp4" />
         </video>
       </section>
     </main>
