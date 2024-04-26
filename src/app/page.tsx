@@ -8,6 +8,8 @@ import js from "@/../public/image/js.png";
 import react from "@/../public/image/React.png";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
+import NextVideo from "next-video";
+import mosh from "@/../videos/mosh.mp4";
 type Skills = {
   name: string;
   img: StaticImageData;
@@ -126,9 +128,14 @@ export default function Home() {
             />
           ))}
         </div>
-        <video width={720} height={540} controls preload="none">
-          <source src="@/../public/videos/game.mp4" type="video/mp4" />
-        </video>
+        <div className=" flex justify-center mt-16  ">
+          <NextVideo
+            src={mosh}
+            className="max-w-[50vw] "
+            autoPlay={true}
+            controls={false}
+          />
+        </div>
       </section>
     </main>
   );
