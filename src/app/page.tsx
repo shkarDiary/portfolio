@@ -7,7 +7,6 @@ import sprinBoot from "@/../public/image/spring-boot-logo.png";
 import js from "@/../public/image/js.png";
 import react from "@/../public/image/React.png";
 import Image, { StaticImageData } from "next/image";
-
 import Link from "next/link";
 type Skills = {
   name: string;
@@ -118,7 +117,7 @@ export default function Home() {
         <div className="flex  justify-evenly ">
           {skills.map((skills) => (
             <Image
-              className="w-14 h-10 md:w-32 md:h-auto object-contain "
+              className="w-14 h-10 md:w-32 md:h-auto object-contain"
               key={skills.name}
               src={skills.img}
               width={skills.w}
@@ -127,8 +126,8 @@ export default function Home() {
             />
           ))}
         </div>
-        <video src="/././public/video/mosh.mp4">
-          <source src="/././public/video/mosh.mp4" />
+        <video width={720} height={540} controls preload="none">
+          <source src="@/../public/videos/game.mp4" type="video/mp4" />
         </video>
       </section>
     </main>
