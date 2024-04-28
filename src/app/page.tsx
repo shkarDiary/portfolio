@@ -1,6 +1,6 @@
 import Facebook from "@/../public/image/Facebook.png";
 import Instagram from "@/../public/image/Instagram.png";
-import MaillINE from "@/../public/image/mailLine.png";
+import MailLine from "@/../public/image/mailLine.png";
 import nextjs from "@/../public/image/nextjs.png";
 import python from "@/../public/image/Python-logo-notext.png";
 import sprinBoot from "@/../public/image/spring-boot-logo.png";
@@ -65,7 +65,7 @@ export default function Home() {
       img: Instagram,
       link: "https://www.instagram.com/d4ro_diary/",
     },
-    { name: "mailLine", img: maillINE, link: "mailto:shkardeary4@gmail.com" },
+    { name: "mailLine", img: MailLine, link: "mailto:shkardeary4@gmail.com" },
   ];
   return (
     <main className="  ">
