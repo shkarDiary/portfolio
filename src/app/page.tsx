@@ -128,12 +128,17 @@ export default function Home() {
             />
           ))}
         </div>
-        <div className=" flex justify-center mt-16  ">
+        <div className=" flex flex-col justify-center items-center mt-8  ">
+          <h2 className=" text-3xl mb-5 text-gray-800 ">
+            My first website with html and css
+          </h2>
           <NextVideo
             src={mosh}
             className="max-w-[50vw] "
-            autoPlay={true}
+            autoPlay
             controls={false}
+            loop
+            muted
           />
         </div>
       </section>
